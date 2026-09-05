@@ -1,0 +1,156 @@
+body {
+    background-color: rgba(202, 120, 32, 0.178);
+}
+
+.menu-bar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(7, 3, 36);
+    padding: 20px 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+    filter: invert(1);
+}
+
+.logo a {
+    padding: 10px 15px;
+    transition: filter 0.3s;
+}
+
+.logo {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: Georgia;
+}
+
+.logo-text {
+    position: relative;
+    top: -7px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-left: 50px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    background-color: rgb(13, 7, 66);
+}
+
+.logo:hover {
+    filter: invert(0.3);
+}
+
+#space {
+    padding: 55px;
+}
+
+.contents {
+    border: solid 2px;
+    padding: 10px;
+    padding-top: 0px;
+    position: fixed;
+    right: 20px;
+    background-color: rgb(236, 199, 159);
+    border-radius: 5px;
+}
+
+.contents a {
+    color:blue;
+    text-decoration: none;
+}
+
+.contents a:hover {
+    color: rgb(71, 71, 255);
+    text-decoration: underline;
+}
+
+.section-heading {
+    scroll-margin-top: 80px
+}
+
+.song-section h2 {
+    padding-left: 25px;
+}
+
+.main-content {
+    margin-left: 10px;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+.intro {
+    margin: 10px;
+    margin-right: 200px;
+    margin-left: 10px;
+}
+
+#movement-unit-result {
+    margin-right: 30px;
+}
+
+.required-questions {
+    margin-top: 10px;
+}
+
+.result-output {
+    font-weight: bold;
+}
+
+.section-separation {
+    border-top: dotted 1.5px;
+    width: 95%;
+    margin: 0 auto;
+    
+}
+
+#game-container iframe {
+    height: 450px;
+    aspect-ratio: 16/9;
+    width: auto;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer {
+    text-align: center;
+    border-top: dotted 1px;
+    padding: 10px;
+    margin: 50px 30px 10px 30px;
+    font-size: small;
+}
+
+
